@@ -1,0 +1,61 @@
+﻿Build started 10/23/2015 10:28:08 AM.
+     1>Project "c:\Users\Brian\documents\visual studio 2015\Projects\practiceProgram\practiceProgram\practiceProgram.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(57): error C2086: 'int a': redefinition
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(33): note: see declaration of 'a'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(57): error C2086: 'int b': redefinition
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(34): note: see declaration of 'b'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(64): error C2371: 'a': redefinition; different basic types
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(33): note: see declaration of 'a'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(64): error C2371: 'b': redefinition; different basic types
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(34): note: see declaration of 'b'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(67): error C2088: '>>': illegal for class
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(49): error C2360: initialization of 'tempInt' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(35): note: see declaration of 'tempInt'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(49): error C2360: initialization of 'b' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(34): note: see declaration of 'b'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(49): error C2360: initialization of 'a' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(33): note: see declaration of 'a'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(56): error C2360: initialization of 'ch' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(52): note: see declaration of 'ch'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(56): error C2360: initialization of 'f' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(51): note: see declaration of 'f'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(56): error C2360: initialization of 'i' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(50): note: see declaration of 'i'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(56): error C2360: initialization of 'tempInt' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(35): note: see declaration of 'tempInt'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(56): error C2360: initialization of 'b' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(34): note: see declaration of 'b'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(56): error C2360: initialization of 'a' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(33): note: see declaration of 'a'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(63): error C2360: initialization of 'ch' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(52): note: see declaration of 'ch'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(63): error C2360: initialization of 'f' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(51): note: see declaration of 'f'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(63): error C2360: initialization of 'i' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(50): note: see declaration of 'i'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(63): error C2360: initialization of 'tempInt' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(35): note: see declaration of 'tempInt'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(63): error C2360: initialization of 'b' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(34): note: see declaration of 'b'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(63): error C2360: initialization of 'a' is skipped by 'case' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(33): note: see declaration of 'a'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(87): error C2361: initialization of 'ch' is skipped by 'default' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(52): note: see declaration of 'ch'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(87): error C2361: initialization of 'f' is skipped by 'default' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(51): note: see declaration of 'f'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(87): error C2361: initialization of 'i' is skipped by 'default' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(50): note: see declaration of 'i'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(87): error C2361: initialization of 'tempInt' is skipped by 'default' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(35): note: see declaration of 'tempInt'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(87): error C2361: initialization of 'b' is skipped by 'default' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(34): note: see declaration of 'b'
+     1>c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(87): error C2361: initialization of 'a' is skipped by 'default' label
+         c:\users\brian\documents\visual studio 2015\projects\practiceprogram\practiceprogram\variables.h(33): note: see declaration of 'a'
+     1>Done Building Project "c:\Users\Brian\documents\visual studio 2015\Projects\practiceProgram\practiceProgram\practiceProgram.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.31
