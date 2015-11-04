@@ -235,9 +235,55 @@ void conditionalStatements()
 			}
 			break;
 		case 8:
-
-			break;
+			//Something weird
+		case 9:
+			//doesn't require programming
 		default:
 			break;
+	}
+}
+
+void loops()
+{
+	switch (isValidNumber(1,4))
+	{
+	case 1:
+		for (int i = 100; i <= 0; i-=2)
+		{
+			std::cout << i;
+		}
+		break;
+	case 2:
+		while (i <= 100)
+		{
+			if (i % 3 == 0 && i % 5 == 0)
+			{
+				std::cout << "FizzBuzz" << std::endl;
+			}
+			else if (i % 3 == 0)
+			{
+				std::cout << "Fizz" << std::endl;
+			} else if (i % 5 == 0)
+			{
+				std::cout << "Buzz" << std::endl;
+			}
+			else
+			{
+				std::cout << i;
+			}
+		}
+		break;
+	case 3:
+		for (int z = 0; z <= 1000; z++)
+		{
+			if (z % 3 == 0 || z % 5 == 0)
+			{
+				a += z;
+			}
+		}
+		std::cout << a;
+		break;
+	default:
+		break;
 	}
 }
