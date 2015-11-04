@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Functions.h"
-#include "Variables.h"
+#include "Functions.h"
 
 const int exerciseMin = 1;
 const int exerciseMax = 3;
@@ -16,6 +16,7 @@ int main()
 			testVariable();
 			break;
 		case 2:
+			conditionalStatements();
 			break;
 		case 3: 
 			break;
